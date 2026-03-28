@@ -47,12 +47,10 @@
 import { useState, useEffect, useRef } from "react";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-// ── CONFIGURE THESE ───────────────────────────────────────────
-const REACT_APP_SUPABASE_URL      = import.meta.env.REACT_APP_SUPABASE_URL;
-const REACT_APP_SUPABASE_ANON_KEY = import.meta.env.REACT_APP_SUPABASE_ANON_KEY;
-// ─────────────────────────────────────────────────────────────
+const SUPABASE_URL      = process.env.REACT_APP_SUPABASE_URL;
+const SUPABASE_ANON_KEY = process.env.REACT_APP_SUPABASE_ANON_KEY;
 
-const supabase = createClient(REACT_APP_SUPABASE_URL, REACT_APP_SUPABASE_ANON_KEY);
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 const DEFAULT_PLAYERS = [
   "Flosse","Lave","Adox","mango","crafterlenis","Zyntrax",
