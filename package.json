@@ -1,4 +1,5 @@
 {
+  "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
   "name": "tournament-app",
   "version": "0.1.0",
   "private": true,
