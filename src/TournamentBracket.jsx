@@ -583,12 +583,14 @@ export default function App() {
             <div className="title">23ER CUP</div>
             <div className="subtitle">Open Championship</div>
           </div>
+          <div style={{ display:"flex", gap:"12px", justifyContent:"center", flexWrap:"wrap" }}>
           <a className="twitch-btn" href="https://www.twitch.tv/lave23g" target="_blank" rel="noreferrer">
             <div className="live-dot" /><span>TWITCH.TV/LAVE23G</span>
           </a>
           <a className="twitch-btn" href="https://www.twitch.tv/flosse23g" target="_blank" rel="noreferrer">
             <div className="live-dot" /><span>TWITCH.TV/Flosse23g</span>
           </a>
+          </div>
         </header>
 
         <div className="controls">
