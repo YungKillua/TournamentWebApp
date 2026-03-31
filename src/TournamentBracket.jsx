@@ -586,6 +586,9 @@ export default function App() {
           <a className="twitch-btn" href="https://www.twitch.tv/lave23g" target="_blank" rel="noreferrer">
             <div className="live-dot" /><span>TWITCH.TV/LAVE23G</span>
           </a>
+          <a className="twitch-btn" href="https://www.twitch.tv/flosse23g" target="_blank" rel="noreferrer">
+            <div className="live-dot" /><span>TWITCH.TV/Flosse23g</span>
+          </a>
         </header>
 
         <div className="controls">
